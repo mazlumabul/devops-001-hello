@@ -15,6 +15,7 @@ public class DevOpsController {
         return 2 * x + 1;
     } */
 
+
     @GetMapping()
     public String devopsHello() {
         return "Hello World" + LocalTime.now();
